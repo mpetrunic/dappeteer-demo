@@ -12,7 +12,7 @@ export default function ConnectButton() {
   
     return account ? (
       <Box>
-        <Text className="balance" color="white" fontSize="md">
+        <Text className="balance" id="balance" color="white" fontSize="md">
             {etherBalance && parseFloat(formatEther(etherBalance)).toFixed(3)} ETH
         </Text>
       </Box>
